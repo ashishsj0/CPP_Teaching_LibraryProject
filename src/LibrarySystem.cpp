@@ -26,12 +26,12 @@ using namespace std;
 
 void add_book()
 {
-	cout<<"Here you can create a new account!"<<endl;
+	cout<<"Here you can add a book"<<endl;
 }
 
 void create_customer()
 {
-	cout<<"Here you can enter the amount you would like to deposit!"<<endl;
+	cout<<"Here you can create a new costumer"<<endl;
 }
 
 void rent_book()
@@ -41,7 +41,7 @@ void rent_book()
 
 void search_book()
 {
-	cout<<"Here you can see your balance enquiry!"<<endl;
+	cout<<"Here you can search for a book"<<endl;
 }
 
 void delete_customer()
@@ -61,10 +61,10 @@ int main()
 
 	do {
 	cout<<"Please select one of these Options available (1-6): \n\n";
-	cout<<"01. NEW ACCOUNT \n\n";
-	cout<<"02. DEPOSIT AMOUNT \n\n";
-	cout<<"03. WITHDRAW AMOUNT \n\n";
-	cout<<"04. BALANCE ENQUIRY \n\n";
+	cout<<"01. ADD BOOK\n\n";
+	cout<<"02. CREATE CUSTOMER \n\n";
+	cout<<"03. RENT BOOK \n\n";
+	cout<<"04. SEARCH BOOK \n\n";
 	cout<<"05. CLOSE AN ACCOUNT \n\n";
 	cout<<"06. EXIT \n\n";
 
